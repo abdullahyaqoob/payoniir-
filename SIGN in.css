@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.top{
+    height: 57px;
+    width: 1023px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(pictures/name.png);
+    background-repeat: no-repeat;
+    background-size: 10% 57%;
+    background-position: 190px 15px;
+    position: absolute;left: 0px;top: 0px;
+    font-family: sans-serif;
+}
+.menu-bar {
+    background: rgb(69, 75, 62);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: cornsilk;
+}
+.menu-bar ul li{  /*is sy sizing ho gi */
+    width: 1017px;
+    margin: 3px;
+    padding: 2px;
+}
+.menu-bar ul li a{
+    text-decoration: none;/* is sy un ka rang change hoga */
+    color: cornsilk;
+}
+.menu-bar ul li:hover{
+   background-color: rgb(4, 78, 4);
+   border-radius: 1px;
+}
+.sub-menu-1{
+    display: none;
+    margin: 3px;
+    padding: 3px;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(56, 59, 57);
+    margin: 1px;
+    margin: 1px; /*is sy drop down uper ya right left ho rha hay */
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 4px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 90px;
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom: 1px dotted white;
+    /* background: transparent; */
+    text-align: left;
+}
+
+
+
+
+.info{
+    height: 65px;
+    width: 600px;
+    border: 1px double rgba(0, 0, 0, 0.301);
+    border-radius: 5PX;
+    position: absolute;left: 200px;top: 31px;
+    }
+
+.vd{
+    position:absolute;left: 0px;top:0px;
+    border-left: 3px solid rgb(255, 72, 0);
+    height: 129px;
+}
+.vf{
+    position:absolute;left: 0px;top:0px;
+    border-left: 3px solid rgb(255, 72, 0);
+    height: 129px;
+}
+.vg{
+    position:absolute;left: 0px;top:0px;
+    border-left: 3px solid rgb(255, 72, 0);
+    height: 129px;
+}
+
+.vh{
+    position:absolute;left: 6px;top:97px;
+    border-top:1px solid rgba(214, 214, 214, 0.301);
+    width: 177px;
+}
+
+.balance-USD{
+    height: 130px;
+    width: 185px;
+    box-shadow: 0 0 8px rgba(19, 18, 18, 0.301);
+    border: 1px double rgba(0, 0, 0, 0.301);
+    position: absolute;left: 200px;top: 124px;
+}
+.balance-EUR{
+    height: 130px;
+    width: 185px;
+    box-shadow: 0 0 8px rgba(19, 18, 18, 0.301);
+    border: 1px double rgba(0, 0, 0, 0.301);
+    position: absolute;left: 408px;top: 124px;
+}
+.balance-GBP{
+    height: 130px;
+    width: 185px;
+    box-shadow: 0 0 8px rgba(19, 18, 18, 0.301);
+    border: 1px double rgba(0, 0, 0, 0.301);
+    position: absolute;left: 616px;top: 124px;
+}
+
+
+.li7{
+    position:absolute;left: 0px;top:40px;
+    border-top:1px solid rgba(214, 214, 214, 0.301);
+    width: 394px;    
+}
+.transactions{
+    height: 500px;
+    width: 396px;
+    border: 1px double rgba(0, 0, 0, 0.301);
+    position: absolute;left: 200px;top: 314px;
+    margin-bottom: 110px;
+    box-shadow: 0 0 8px rgba(121, 121, 121, 0.301);
+}
+.li8{
+    position:absolute;left: 0px;top:40px;
+    border-top:4px solid rgb(126, 126, 126);
+    width: 60px;    
+}
+.box1{
+    height: 155px;
+    width: 189px;
+    box-shadow: 0 0 8px rgba(19, 18, 18, 0.301);
+    border: 1px double rgba(0, 0, 0, 0.301);
+    position: absolute;left: 616px;top: 314px;
+}
+.box2{
+    height: 155px;
+    width: 189px;
+    box-shadow: 0 0 8px rgba(19, 18, 18, 0.301);
+    border: 1px double rgba(0, 0, 0, 0.301);
+    position: absolute;left: 616px;top: 487px;
+}
+.box3{
+    height: 155px;
+    width: 189px;
+    box-shadow: 0 0 8px rgba(19, 18, 18, 0.301);
+    border: 1px double rgba(0, 0, 0, 0.301);
+    position: absolute;left: 616px;top: 659px;
+}
+/* ul.box1 li input[type="button"]{
+    width: 290px;             
+    height: 18px;
+    background-color: rgb(231, 76, 19);
+    color: white;
+    padding: 1px;
+    border: none;
+} */
+.request{
+    width: 170px;
+    height: 30px;
+    padding: 2px;
+    border: orange;
+    box-shadow: 0 0 2px rgb(255, 94, 0);
+    position: absolute;left: 8px;top:110px;
+}
